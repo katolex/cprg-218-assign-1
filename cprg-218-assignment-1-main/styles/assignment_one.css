@@ -1,5 +1,6 @@
 /* Set CSS flexbox layouts for each site
-pixels changing with each to match*/
+pixels changing with each to match
+begins with card-container class from html*/
 
 .card-container {
   display: flex;
