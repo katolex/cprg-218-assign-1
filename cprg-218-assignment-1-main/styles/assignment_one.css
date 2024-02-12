@@ -1,0 +1,30 @@
+/* Set CSS flexbox layouts for each site
+pixels changing with each to match*/
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Desktop flex layout*/
+@media (min-width: 1200px) {
+  .card {
+    flex: 33.333%;
+  }
+}
+
+/* Tablet flex layout*/
+@media (min-width: 768px) {
+  .card{
+    flex: 50%;
+  }
+}
+
+
+/* Mobile flex layout*/
+@media (max-width: 768px) {
+  .card{
+    flex: 100%;
+  }
+}
